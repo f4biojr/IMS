@@ -1,0 +1,198 @@
+*{margin:0px; padding: 0px;}
+
+body {font-family: Tahoma, Arial, Verdana;font-size: 14px;background-image: url(../img/bg.png); background-repeat:  repeat-x; background-position: center top;}
+a {color: #3D7ACB !important; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+/* -- Logo -- */
+.logo {width: 150px; height: 83px;}
+/* -- Logo -- */
+
+/* -- Index -- */
+.index {background-image: url(../img/bg.png); background-repeat:  repeat-x; background-position: center top;}
+.index div {width: 200px; height: 120px; padding: 10px; right: 50%; top: 25%; margin-right: -100px; position: absolute; text-align: center}
+.index img{border: 0px; }
+/* -- Index -- */
+
+/* -- Login -- */
+.login {background-image: url(../img/bg.png); background-repeat:  repeat-x; background-position: center top;}
+.login div {width: 280px; height: 200px; padding: 5px; right: 50%; top: 25%; margin-right: -140px; position: absolute; text-align: center}
+.login img{border: 0px; }
+.login input{width: 150px;margin:0px 0px 10px 0px; }
+.login label{float: none; display: inline}
+/* -- Login -- */
+
+/*-- Grafico --*/
+div.grafico {
+    width: 85%;
+    height: 80%;
+    margin: 0px 10px 20px 10px;
+}
+/*-- Grafico --*/
+
+/* -- Lista de servidores na pagina de graficos --*/
+
+div#lista_servidores {
+    width: 50%;
+    height:100%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 25%;
+}
+
+div#lista_servidores ul li {
+    list-style: none;
+    border-right: 1px inset #FFF;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+div#lista_servidores img {padding-right: 20px; float:left; border:0px;}
+
+/* -- Lista de servidores na pagina de graficos --*/
+
+/* -- Monitor -- */
+#monitor {width: 84%; height: 80%;  width: 450px; left: 30px; position: relative; text-align: center}
+#monitor li{list-style-type: none; color: #3D7ACB;}
+#monitor li p{border: 1px solid black; padding: 10px; margin: 10px;}
+/* -- Monitor -- */
+
+/*-- Painel esquerdo --*/
+div#lpanel {width: 15%; float: left; margin-top: 10px; border: 1px solid black}
+/*-- Painel esquerdo --*/
+
+/* -- Menu -- */
+ul.topnav {list-style: none; padding: 0 20px 0 20px; margin: 0; float: left; width: 100%; background: #222; font-size: 1.2em;
+           background: url(../img/bg.png) repeat-x; border-bottom: 1px solid #EFEFEF; }
+ul.topnav li { float: left; margin: 0; padding: 0 4% 0 4%; position: relative; text-align: center;}
+ul.topnav a:firt-child{padding-left: 200px; border: 1px solid red;}
+ul.topnav li a{	padding: 10px 5px; color: #fff;	display: block;	text-decoration: none; float: left; }
+/*--Drop down trigger styles--*/
+ul.topnav li span { width: 17px; height: 35px; float: left; background: url(images/subnav_btn.gif) no-repeat center top;}
+/*--Hover effect for trigger--*/
+ul.topnav li span.subhover { background: url(images/subnav_btn_hover.gif) no-repeat center top;}
+
+ul.topnav li a #adicionar { z-index: 999; left: -8px; top: 12px; width: 20px; heigth: 20px; border: none; position: relative }
+
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+        z-index: 999;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #E6E6E6; /*--Create bevel effect--*/
+	border-bottom: 1px solid #666; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background:  url(images/ui-bg_glass_100_f6f6f6_1x400.png) repeat-x 10px center;
+	padding-left: 20px;
+}
+
+/*--Hover effect for subnav links--*/
+html ul.topnav li ul.subnav li a:hover { background:  url(images/ui-bg_glass_100_f6f6f6_1x400.png) repeat-x; }
+
+/* -- Menu -- */
+
+
+div#topo {width: 99%; height: 60px; z-index: 999; }
+
+
+div#cadastro {width: 66%; float: right; margin-top: 10px; margin-bottom: 10px;}
+div#cadastro fieldset{ width: 400px; border: 1px solid grey;  }
+div#cadastro fieldset input{ width: 150px; border: 1px solid grey; }
+div#cadastro fieldset button{ position: relative; margin-top: 30px}
+div#cadatro form {text-align: center}
+
+
+form {text-align: center}
+
+
+
+/* -- Lista de items --*/
+
+div#lista {
+    width: 500px;
+    height:100%;
+    margin-bottom: 50px;
+    position: relative;
+    left: 33%;
+}
+
+div#lista ul li {
+    list-style: none;
+    border-right: 1px inset #FFF;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+div#lista img {padding-right: 20px; float:left; border:0px;}
+
+/* -- Lista de items --*/
+
+fieldset {padding:10px;}
+
+fieldset legend { background: #666; padding: 3px 5px; color: #fff;}
+
+label{ 
+    display: block;
+    width: 150px;
+    margin-right:10px;
+    float: left;
+    text-align: right;
+}
+
+input { margin: 0px 10px 20px 0px; width: 300px;}
+
+div#cadastro fieldset div#servicos{ width: 180px; float: left;}
+
+div#cadastro fieldset input.servico {
+        width: 5%;
+        margin:0px 10px 10px 0px;
+        padding: 0px;
+        float: right;
+}
+div#cadastro fieldset div#servicos label {
+        width: 80%;
+        margin:0px 10px 10px 0px;
+        padding: 0px;
+        float: left;
+        text-align: left;
+}
+
+#monitoramento{ padding-left:25px; text-align: center;}
+
+button { padding: 5px; cursor: pointer;}
+
+table{border: 1px solid black; border-bottom: 0px;}
+
+table caption { margin-bottom: 10px; font-weight: bold; text-align: left;}
+
+table tr:hover {background-color: #ddd;}
+
+table tr td,
+table tr th{ border-left: 1px solid black; border-bottom: 1px solid black; padding: 3px 10px; text-align: center;}
+
+table tr td:first-child,
+table tr th:first-child{ border-left: 0px solid black;}
+
+table tr td button {float:none !important;}
+
+div.erro{margin:0 auto; text-align: center;}
+
+
+
+    
+
+    

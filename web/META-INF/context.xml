@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/IMSWeb">
+
+    <Resource name="ims" auth="Container" type="javax.sql.DataSource"
+        maxActive="200" maxIdle="40" maxWait="10000"  username="ims5" password="ims5"
+        driverClassName="com.mysql.jdbc.Driver"    url="jdbc:mysql://192.168.1.108:3306/ims5" />
+
+    <Realm
+        className="org.apache.catalina.realm.DataSourceRealm"
+        localDataSource="true"
+        dataSourceName="ims"
+        userTable="administradores"
+        userNameCol="adm_login"
+        userCredCol="adm_senha"
+        userRoleTable="admin_funcao"
+        roleNameCol="adm_admin"
+        />
+</Context>
