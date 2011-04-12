@@ -1,0 +1,199 @@
+/* 
+    Document   : estilo
+    Created on : 03/10/2010, 15:15:35
+    Author     : vanessatonini
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+*{margin:0px; padding: 0px;}
+
+body {font-family: Tahoma, Arial, Verdana;font-size: 14px;}
+ a {color: #3D7ACB !important; text-decoration: none;}
+ a:hover {text-decoration: underline;}
+
+/*div.site {
+    width: 900px; min-height:500px;
+    margin:0px auto; padding: 20px;
+    border:1px solid black;
+    background: #fff;
+}*/
+
+/*h1 { margin:0px auto 20px auto; display:block; text-align: center; cursor: pointer;}*/
+
+/*#cadastroCliente, #cadastroProduto, #listaClientes, #listaProdutos {display:none;}
+*/
+
+
+
+/* -- Menu -- */
+ul.topnav {
+	list-style: none;
+	padding: 0 20px;
+	margin: 0;
+	float: left;
+	width: 920px;
+	background: #222;
+	font-size: 1.2em;
+	background: url(images/ui-bg_glass_100_f6f6f6_1x400.png) repeat-x;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+        text-decoration: underline;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(images/subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover { 
+    background: url(images/subnav_btn_hover.gif) no-repeat center top;
+
+} /*--Hover effect for trigger--*/
+
+
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+        z-index: 999;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #E6E6E6; /*--Create bevel effect--*/
+	border-bottom: 1px solid #666; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background:  url(images/ui-bg_glass_100_f6f6f6_1x400.png) repeat-x 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background:  url(images/ui-bg_glass_100_f6f6f6_1x400.png) repeat-x;
+}
+/* -- Menu -- */
+
+
+div#topo {width: 920px; height: 80px; z-index: 999; }
+
+
+div#cadastro {width: 80%; float: right; margin-top: 10px;}
+div#cadastro fieldset{ width: 400px; border: 1px solid grey; }
+div#cadastro fieldset input{ width: 150px; border: 1px solid grey; }
+div#cadastro fieldset button{ margin-right: 87px;}
+
+/* -- Lista de items --*/
+
+div#lista {
+    width: 500px; 
+    height:100%;
+    margin-bottom: 50px;
+    position: relative;
+    left: 22%;
+}
+
+div#lista ul li {
+    list-style: none;
+    border-right: 1px inset #FFF;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+div#lista img {padding-right: 20px; float:left; border:0px;}
+
+/* -- Lista de items --*/
+
+
+
+fieldset {padding:10px;}
+
+fieldset legend { background: #666; padding: 3px 5px; color: #fff;}
+
+label{ 
+    display: block;
+    width: 150px;
+    margin-right:10px;
+    float: left;
+    text-align: right;
+}
+
+input {
+    margin: 0px 10px 20px 0px;
+    width: 300px;
+}
+
+div#cadastro fieldset div#servicos{
+    width: 180px;
+    float: left;
+}
+
+div#cadastro fieldset input.servico {
+        width: 30px;
+        margin:0px 10px 10px 0px;
+        padding: 0px;
+}
+div#cadastro fieldset div#servicos label {
+        width: 100px;
+        margin:0px 10px 10px 0px;
+        padding: 0px;
+}
+
+#monitoramento{
+    padding-left:25px;
+
+}
+
+button { padding: 5px; cursor: pointer;}
+
+table{border: 1px solid black; border-bottom: 0px;}
+
+table caption { margin-bottom: 10px; font-weight: bold; text-align: left;}
+
+ table tr:hover {background-color: #ddd;}
+
+table tr td,
+table tr th{
+    border-left: 1px solid black; border-bottom: 1px solid black;
+    padding: 3px 10px; text-align: center;
+}
+
+table tr td:first-child,
+table tr th:first-child{
+    border-left: 0px solid black;
+}
+
+table tr td button {float:none !important; }
+
+div.erro{margin:0 auto; text-align: center;}
+
+
+
+    
+
+    

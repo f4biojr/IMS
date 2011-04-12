@@ -1,0 +1,11 @@
+
+--------------
+Pre-requisitos
+--------------
+Os pŕe-requisitos aqui apresentados referem-se ao servidor que irá rodar o ims_daemon. 
+ - Python 2.6
+ - Módulo MySQLdb
+ - net-snmp
+
+
+

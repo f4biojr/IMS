@@ -1,0 +1,11 @@
+O processo de administração de servidores envolve basicamente monitoramento e prevenção de riscos. Para tanto, o administrador de redes faz uso de ferramentas que o auxiliam nestas atividades. Atualmente há no mercado várias alternativas de sistemas que disponibilizam esse tipo de serviço. Cada um tem seu ponto forte, o que faz com que os SysAdmin acabe utilizando um conjunto de ferramentas para monitorar de maneira mais eficaz seus servidores.
+
+A proposta da Interface de Monitoramento de Servidores (IMS), é simplificar o monitoramento, reunindo as ferramentas principais em um só sistema. Não tem objetivo comercial direto, já que não será vendido como produto, mas indireto já que é utilizado como ferramenta de trabalho de SysAdmins.O IMS permite o cadastro de servidores e serviços, bem como o vínculo destes serviços aos servidores, para consulta de status e construção de gráficos. 
+
+A partir do sistema pode-se monitorar vários componentes do servidor, como memória fisica e swap, uso de disco, processamento, carga, usuários conectados, conexões do mysql, e tudo aquilo que possui uma MIB válida e presente no servidor.
+
+Em conjunto com o sistema web, construído em JAVA com JSP, está um motor em Python que realiza consultas utilizando um protocolo específico de monitoramento e gerenciamento de servidores, o SNMP. O Simple Network Management Protocol, ou simplesmente SNMP, é um protocolo de gerência de redes UDP, de camada de aplicação, baseado na RFC1157(http://tools.ietf.org/html/rfc1157) de 1990.
+
+Implementado pelo net-snmp, tem a capacidade de realizar consultas e alterar valores remotamente através de "MIBs" (management information bases), que definen qual informação está disponível em qualquer dispositivo de rede gerenciável.
+
+

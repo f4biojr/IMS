@@ -1,0 +1,25 @@
+Nome
+	IMS - Interface de Monitoramento de Servidores
+	
+Versao
+	ims 1.4
+	
+	<Local de download do pacote>
+	
+Synopse
+ ___  __  __  ___ 
+|_ _||  \/  |/ __|
+ | | | |\/| |\__ \
+|___||_|  |_||___/ Interface de Monitoramento de Servidores
+
+O IMS e um sistema que permite o monitoramento de servidores
+atraves de uma interface web. O sistema realiza consultas em
+intervalos periodicos definidos pelo administrador aos 
+servidores cadastrados utilizando o SNMP. As informacoes 
+obtidas sao referentes a servicos basicos em funcionamento 
+no servidor como uso de disco, uso de memoria, carga, uso de 
+cpu, tráfego na interface de rede, etc. 
+
+O IMS e constituido de dois servicos principais. A interface 
+web baseada em PHP e o daemon de obtencao dos dados baseado 
+em python.
